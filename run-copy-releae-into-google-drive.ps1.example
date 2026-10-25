@@ -1,0 +1,7 @@
+# Set up your runtime parameters
+$Token = ""
+$Url = ""
+$File = ""
+
+# Execute script file execution process
+.\copy-release-into-google-drive.ps1 -BuildFilePath $File -AccessToken $Token -ParentFolderUrlOrId $Url
